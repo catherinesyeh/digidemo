@@ -65,7 +65,7 @@ let startBody name s w h strstyle =
         tab3 + "<use xlink:href=\"#rl\" transform=\"translate(50 0) scale(-1,1)\" />" +
         tab2 + "</symbol>" +
         tab2 + "<symbol id=\"skip\" display=\"none\">" +
-        tab3 + "<use xlink:href=\"#rr\" />" +
+        tab3 + "<use xlink:href=\"#knot\" fill=\"none\" />" +
         tab2 + "</symbol>" +
         tab1 + "</defs>" +
         tab1 + "<style type=\"text/css\">" +

@@ -31,6 +31,6 @@ myButton.onclick <- fun _ ->
     | Some ast -> 
         let svg = eval ast
         right.innerHTML <- svg
-        myCode.value <- "Enjoy your pattern. Feel free to write another program too!"
+        myCode.value <- "Enjoy your pattern. Feel free to write another program!"
     | None -> 
         myCode.value <- "Invalid expression."

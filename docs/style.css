@@ -35,19 +35,23 @@ select {
 
 .left {
     position: absolute;
+    top: 20px;
     left: 20px;
     width: 40%;
     min-width: 300px;
+    max-width: 600px;
     height: auto;
     margin-bottom: 20px;
     background: #fff;
 }
 
 .right {
+    top: 20px;
     position: absolute;
     right: 0px;
-    width: 52%;
+    width: 50%;
     min-width: 300px;
+    max-width: 725px;
     height: auto;
 }
 
@@ -85,14 +89,13 @@ select {
 
 @media screen and (max-width: 800px) {
     .left {
-        top: 20px;
         position: relative;
         width: calc(100% - 40px);
         height: auto;
     }
 
     .right {
-        top: 20px;
+        top: 40px;
         position: relative;
         left: 20px;
         width: calc(100% - 40px);
