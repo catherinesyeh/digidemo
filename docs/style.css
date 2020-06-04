@@ -57,7 +57,7 @@ select {
 
 .code {
     resize: vertical;
-    width: calc(100% - 20px);
+    width: calc(100% - 22px);
     height: 300px;
     background-color: #FFE9E6;
     border-color: #000;
