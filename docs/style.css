@@ -114,6 +114,7 @@ select {
         position: relative;
         width: calc(100% - 40px);
         height: auto;
+        max-width: 800px;
     }
 
     .right {
@@ -122,5 +123,6 @@ select {
         left: 20px;
         width: calc(100% - 40px);
         height: auto;
+        max-width: 800px;
     }
 }
