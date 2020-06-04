@@ -11,11 +11,17 @@ open ProgramInterpreter
 let myButton = document.querySelector(".submit") :?> Browser.Types.HTMLButtonElement
 let myCode = document.querySelector(".code") :?> Browser.Types.HTMLTextAreaElement
 
+let body = document.querySelector(".body") :?> Browser.Types.HTMLBodyElement
 let left = document.querySelector(".left") :?> Browser.Types.HTMLDivElement
 let right = document.querySelector(".right") :?> Browser.Types.HTMLDivElement
 
-let parent = left.parentNode
-parent.insertBefore(left, parent.firstChild)
+// Fix layout of site
+window.onload <- fun _ ->
+    body.insertBefore(left, body.firstChild) |> ignore
+
+    let input = myCode.value // get code
+    myButton.click() |> ignore
+    myCode.value <- input
 
 // Register button click
 myButton.onclick <- fun _ ->
