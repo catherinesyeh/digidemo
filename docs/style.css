@@ -87,6 +87,28 @@ select {
     height: auto;
 }
 
+#back2Top {
+    display: none;
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FA8072;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#back2Top:hover {
+    opacity: 0.85;
+}
+
 @media screen and (max-width: 800px) {
     .left {
         position: relative;
