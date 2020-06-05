@@ -39,7 +39,6 @@ select {
     left: 20px;
     width: 40%;
     min-width: 300px;
-    max-width: 600px;
     height: auto;
     margin-bottom: 20px;
     background: #fff;
@@ -51,7 +50,6 @@ select {
     right: 0px;
     width: 50%;
     min-width: 300px;
-    max-width: 725px;
     height: auto;
 }
 
