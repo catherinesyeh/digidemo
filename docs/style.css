@@ -24,14 +24,14 @@ a {
 a:hover {
     opacity: 0.85;
 }
-/* later implementation
+
 select {
     float: right;
     font-family: Roboto;
     width: calc(100% - 140px);
     border: 1px solid #000;
+    margin-bottom: 20px;
 }
-*/
 
 .left {
     position: absolute;
