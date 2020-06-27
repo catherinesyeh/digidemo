@@ -34,9 +34,9 @@ select {
 }
 
 .left {
-    position: absolute;
+    position: fixed;
     top: 20px;
-    left: 20px;
+    left: 3%;
     width: 40%;
     min-width: 300px;
     height: auto;
@@ -45,9 +45,9 @@ select {
 }
 
 .right {
-    top: 20px;
+    top: 2.5%;
     position: absolute;
-    right: 0px;
+    right: 0.5%;
     width: 50%;
     min-width: 300px;
     height: auto;
@@ -98,7 +98,7 @@ select {
     background-color: #FA8072;
     color: #fff;
     text-align: center;
-    font-size: 32px;
+    font-size: 20px !important;
     text-decoration: none;
     border-radius: 20px;
 }
@@ -107,20 +107,25 @@ select {
     opacity: 0.85;
 }
 
+@media screen and (max-width: 1100px) {
+    .code {
+        height: 200px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .left {
         position: relative;
-        width: calc(100% - 40px);
+        width: calc(100% - 60px);
         height: auto;
-        max-width: 800px;
+        left: 30px;
     }
 
     .right {
         top: 40px;
         position: relative;
-        left: 20px;
+        left: 30px;
         width: calc(100% - 40px);
         height: auto;
-        max-width: 800px;
     }
 }
