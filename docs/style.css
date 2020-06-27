@@ -129,3 +129,15 @@ select {
         height: auto;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    .left {
+        left: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .right {
+        left: 20px;
+    }
+}
