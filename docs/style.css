@@ -35,12 +35,12 @@ select {
 
 .left {
     position: absolute;
-    top: 2.5%;
+    top: 2%;
     left: 3%;
     width: 40%;
     min-width: 300px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 2.5%;
     background: #fff;
 }
 
@@ -119,15 +119,17 @@ select {
         width: calc(100% - 60px);
         height: auto;
         left: 30px;
-        top: 20px;
+        top: 10px;
+        margin-bottom: 20px;
     }
 
     .right {
-        top: 40px;
+        top: 30px;
         position: relative;
         left: 30px;
         width: calc(100% - 40px);
         height: auto;
+        margin-bottom: 20px;
     }
 }
 
@@ -135,6 +137,7 @@ select {
 @media screen and (max-width: 480px) {
     .left {
         width: calc(100% - 40px);
+        left: 20px;
     }
 
     .right {
