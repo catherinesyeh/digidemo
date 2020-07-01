@@ -149,10 +149,15 @@ select {
 @media screen and (max-width: 350px) {
     .left {
         top: 0px;
-        left: 2%;
+        left: 10px;
+        min-width: 0px;
+        width: calc(100% - 20px);
     }
 
     .right {
         top: 0px;
+        left: 10px;
+        min-width: 0px;
+        width: calc(100% - 20px);
     }
 }
