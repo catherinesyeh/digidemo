@@ -147,6 +147,11 @@ select {
 
 @media screen and (max-width: 350px) {
     .left {
+        top: 0px;
         left: 2%;
+    }
+
+    .right {
+        top: 20px;
     }
 }
