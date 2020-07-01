@@ -144,3 +144,9 @@ select {
         left: 20px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .left {
+        left: 2%;
+    }
+}
