@@ -141,6 +141,7 @@ select {
     }
 
     .right {
+        top: 20px;
         left: 20px;
     }
 }
@@ -152,6 +153,6 @@ select {
     }
 
     .right {
-        top: 20px;
+        top: 0px;
     }
 }
